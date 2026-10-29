@@ -1,0 +1,8 @@
+﻿# 运行产物与大数据文件
+algorithms/out/embeddings.npy
+algorithms/out/node_ids.npy
+algorithms/out/pagerank.csv
+data/user_full.csv
+__pycache__/
+*.pyc
+.DS_Store

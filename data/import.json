@@ -1,0 +1,41 @@
+{
+  "schema": [
+    {
+      "label": "user",
+      "type": "VERTEX",
+      "properties": [
+        { "name": "id", "type": "INT64" },
+        { "name": "checkin_count", "type": "INT32", "optional": true },
+        { "name": "active_days", "type": "INT32", "optional": true },
+        { "name": "first_checkin", "type": "STRING", "optional": true },
+        { "name": "last_checkin", "type": "STRING", "optional": true },
+        { "name": "mean_lat", "type": "DOUBLE", "optional": true },
+        { "name": "mean_lon", "type": "DOUBLE", "optional": true }
+      ],
+      "primary": "id"
+    },
+    {
+      "label": "friend",
+      "type": "EDGE",
+      "constraints": [["user", "user"]]
+    }
+  ],
+  "files": [
+    {
+      "path": "/mnt/d/dsh/workplace/专业综合实践作业/作业2数据集/processed/user.csv",
+      "header": 1,
+      "format": "CSV",
+      "label": "user",
+      "columns": ["id", "checkin_count", "active_days", "first_checkin", "last_checkin", "mean_lat", "mean_lon"]
+    },
+    {
+      "path": "/mnt/d/dsh/workplace/专业综合实践作业/作业2数据集/processed/friend.csv",
+      "header": 1,
+      "format": "CSV",
+      "label": "friend",
+      "SRC_ID": "user",
+      "DST_ID": "user",
+      "columns": ["SRC_ID", "DST_ID"]
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "n_nodes": 196591,
+  "n_edges": 950327,
+  "train_edges": 855295,
+  "test_edges": 95032,
+  "num_walks": 5,
+  "walk_length": 40,
+  "dim": 64,
+  "p": 1.0,
+  "q": 2.0,
+  "window": 10,
+  "epochs": 3,
+  "link_prediction_auc": 0.911818,
+  "pos_score_mean": 0.673803,
+  "neg_score_mean": 0.324548,
+  "elapsed_sec": 1575.8
+}

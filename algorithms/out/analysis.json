@@ -1,0 +1,211 @@
+{
+  "n_nodes": 196591,
+  "n_edges": 950327,
+  "pagerank_iterations": 87,
+  "pagerank_sum": 1.0,
+  "top20_pagerank": [
+    {
+      "user_id": 307,
+      "pagerank": 0.007163180618924585,
+      "degree": 14730,
+      "checkin_count": 225,
+      "active_days": 31
+    },
+    {
+      "user_id": 220,
+      "pagerank": 0.007117025305782106,
+      "degree": 10185,
+      "checkin_count": 10,
+      "active_days": 5
+    },
+    {
+      "user_id": 505,
+      "pagerank": 0.002927724332082707,
+      "degree": 5420,
+      "checkin_count": 0,
+      "active_days": 0
+    },
+    {
+      "user_id": 440,
+      "pagerank": 0.0022803919517150415,
+      "degree": 3800,
+      "checkin_count": 73,
+      "active_days": 47
+    },
+    {
+      "user_id": 1149,
+      "pagerank": 0.002063484215330793,
+      "degree": 3986,
+      "checkin_count": 217,
+      "active_days": 63
+    },
+    {
+      "user_id": 459,
+      "pagerank": 0.0014932898507413477,
+      "degree": 3880,
+      "checkin_count": 205,
+      "active_days": 95
+    },
+    {
+      "user_id": 527,
+      "pagerank": 0.00122827206513218,
+      "degree": 2916,
+      "checkin_count": 192,
+      "active_days": 101
+    },
+    {
+      "user_id": 207,
+      "pagerank": 0.0009774813536346984,
+      "degree": 1953,
+      "checkin_count": 0,
+      "active_days": 0
+    },
+    {
+      "user_id": 615,
+      "pagerank": 0.0009424140344752601,
+      "degree": 2089,
+      "checkin_count": 25,
+      "active_days": 15
+    },
+    {
+      "user_id": 3,
+      "pagerank": 0.0007863951565687912,
+      "degree": 1539,
+      "checkin_count": 0,
+      "active_days": 0
+    },
+    {
+      "user_id": 854,
+      "pagerank": 0.0006860893743837963,
+      "degree": 1795,
+      "checkin_count": 1800,
+      "active_days": 86
+    },
+    {
+      "user_id": 2215,
+      "pagerank": 0.0005995012817736206,
+      "degree": 817,
+      "checkin_count": 0,
+      "active_days": 0
+    },
+    {
+      "user_id": 1079,
+      "pagerank": 0.000595599803445159,
+      "degree": 1499,
+      "checkin_count": 75,
+      "active_days": 1
+    },
+    {
+      "user_id": 2186,
+      "pagerank": 0.0005909921951687107,
+      "degree": 1837,
+      "checkin_count": 50,
+      "active_days": 31
+    },
+    {
+      "user_id": 1431,
+      "pagerank": 0.0005763772663554974,
+      "degree": 1425,
+      "checkin_count": 1,
+      "active_days": 1
+    },
+    {
+      "user_id": 2,
+      "pagerank": 0.0005629745219989666,
+      "degree": 1344,
+      "checkin_count": 2100,
+      "active_days": 45
+    },
+    {
+      "user_id": 2009,
+      "pagerank": 0.0005620911019398949,
+      "degree": 1711,
+      "checkin_count": 87,
+      "active_days": 60
+    },
+    {
+      "user_id": 1450,
+      "pagerank": 0.0005306479007015904,
+      "degree": 1513,
+      "checkin_count": 75,
+      "active_days": 42
+    },
+    {
+      "user_id": 2169,
+      "pagerank": 0.0005165571738614263,
+      "degree": 1458,
+      "checkin_count": 51,
+      "active_days": 43
+    },
+    {
+      "user_id": 2255,
+      "pagerank": 0.0005011099963573083,
+      "degree": 1548,
+      "checkin_count": 901,
+      "active_days": 280
+    }
+  ],
+  "spearman_pagerank_vs_checkin": 0.4718,
+  "spearman_pagerank_vs_activedays": 0.4713,
+  "spearman_degree_vs_checkin": 0.4459,
+  "users_with_checkin": 107092,
+  "friend_pairs_with_location": 456830,
+  "friend_dist_median_km": 433.33,
+  "friend_dist_mean_km": 1716.84,
+  "random_dist_median_km": 6434.72,
+  "random_dist_mean_km": 5696.78,
+  "friend_dist_lt100km_ratio": 0.2658,
+  "random_dist_lt100km_ratio": 0.0122,
+  "n_checkins": 6442892,
+  "checkins_by_month": {
+    "2009-02": 7,
+    "2009-03": 900,
+    "2009-04": 570,
+    "2009-05": 1003,
+    "2009-06": 679,
+    "2009-07": 1113,
+    "2009-08": 1487,
+    "2009-09": 7714,
+    "2009-10": 37884,
+    "2009-11": 86869,
+    "2009-12": 203453,
+    "2010-01": 311180,
+    "2010-02": 301694,
+    "2010-03": 542440,
+    "2010-04": 549079,
+    "2010-05": 526144,
+    "2010-06": 584912,
+    "2010-07": 707685,
+    "2010-08": 861805,
+    "2010-09": 973801,
+    "2010-10": 742473
+  },
+  "checkins_by_hour": {
+    "00": 312231,
+    "01": 270053,
+    "02": 224899,
+    "03": 181087,
+    "04": 149462,
+    "05": 145383,
+    "06": 157493,
+    "07": 152900,
+    "08": 141590,
+    "09": 153247,
+    "10": 196125,
+    "11": 220726,
+    "12": 252401,
+    "13": 276750,
+    "14": 304903,
+    "15": 347831,
+    "16": 409861,
+    "17": 438890,
+    "18": 408139,
+    "19": 374191,
+    "20": 344824,
+    "21": 324370,
+    "22": 325756,
+    "23": 329780
+  },
+  "peak_hour": "17",
+  "peak_month": "2010-09"
+}

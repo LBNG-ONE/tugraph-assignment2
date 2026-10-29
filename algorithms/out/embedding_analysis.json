@@ -1,0 +1,106 @@
+{
+  "n_nodes": 196591,
+  "dim": 64,
+  "kmeans_k": 8,
+  "silhouette": 0.0721,
+  "cluster_sizes": [
+    14032,
+    28775,
+    48654,
+    35577,
+    23685,
+    27547,
+    10977,
+    7344
+  ],
+  "cluster_mean_checkin": [
+    34.135,
+    32.168,
+    30.94,
+    48.79,
+    32.793,
+    15.992,
+    37.404,
+    23.053
+  ],
+  "neighbor_examples": [
+    {
+      "query_user": 220,
+      "cluster": 0,
+      "top5": [
+        {
+          "user_id": 20947,
+          "cosine": 0.923
+        },
+        {
+          "user_id": 20556,
+          "cosine": 0.9218
+        },
+        {
+          "user_id": 14162,
+          "cosine": 0.9198
+        },
+        {
+          "user_id": 19184,
+          "cosine": 0.9169
+        },
+        {
+          "user_id": 20528,
+          "cosine": 0.9149
+        }
+      ]
+    },
+    {
+      "query_user": 152,
+      "cluster": 1,
+      "top5": [
+        {
+          "user_id": 10032,
+          "cosine": 0.9172
+        },
+        {
+          "user_id": 87560,
+          "cosine": 0.9155
+        },
+        {
+          "user_id": 59829,
+          "cosine": 0.9094
+        },
+        {
+          "user_id": 55807,
+          "cosine": 0.9067
+        },
+        {
+          "user_id": 10900,
+          "cosine": 0.9061
+        }
+      ]
+    },
+    {
+      "query_user": 5,
+      "cluster": 2,
+      "top5": [
+        {
+          "user_id": 3781,
+          "cosine": 0.9187
+        },
+        {
+          "user_id": 4086,
+          "cosine": 0.8976
+        },
+        {
+          "user_id": 3757,
+          "cosine": 0.8955
+        },
+        {
+          "user_id": 3812,
+          "cosine": 0.8933
+        },
+        {
+          "user_id": 3891,
+          "cosine": 0.8909
+        }
+      ]
+    }
+  ]
+}
